@@ -4,8 +4,7 @@ const Calculator = {
     for (let i = 0; i < n.length; i++) {
       sum += n[i]
     }
-    let avg = n.length ? sum / n.length : 0
-    return avg
+    return n.length ? sum / n.length : 0
   }
 }
 
